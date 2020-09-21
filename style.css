@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    margin: 50px;
+}
+
+
+
+.user-form{
+    width: 450px;
+    margin: 100px auto ;
+}
+
+.user-form input{
+    display: block;
+    border: 2px solid rgb(8, 159, 230);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+    box-sizing: border-box;
+    color: #000;
+   
+}
+
+
+
+.user-form input:last-child{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-color: black;
+    cursor: pointer;
+    
+}
